@@ -11,20 +11,6 @@ export default function ComingSoon() {
             <Code2 className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
             <span className="font-mono text-xs sm:text-sm font-semibold">xlprocommunity.in</span>
           </div>
-          <div className="flex items-center gap-3 sm:gap-6">
-            <a
-              href="#about"
-              className="text-xs sm:text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              About
-            </a>
-            <a
-              href="#contact"
-              className="text-xs sm:text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Contact
-            </a>
-          </div>
         </nav>
       </header>
 
