@@ -1,5 +1,6 @@
 import { Code2, Calendar, MapPin } from "lucide-react"
 import { CountdownTimer } from "@/components/countdown-timer"
+import Image from "next/image"
 
 export default function ComingSoon() {
   return (
@@ -10,6 +11,20 @@ export default function ComingSoon() {
           <div className="flex items-center gap-2">
             <Code2 className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
             <span className="font-mono text-xs sm:text-sm font-semibold">xlprocommunity.in</span>
+          </div>
+          <div className="flex items-center gap-3 sm:gap-6">
+            <a
+              href="#about"
+              className="text-xs sm:text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
+              About
+            </a>
+            <a
+              href="#contact"
+              className="text-xs sm:text-sm text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Contact
+            </a>
           </div>
         </nav>
       </header>
@@ -78,7 +93,7 @@ export default function ComingSoon() {
               </div>
             </div>
 
-            {/* Right Content - Geometric Design */}
+            {/* Right Content - Geometric Design with Logo */}
             <div className="relative hidden lg:flex items-center justify-center">
               <div className="relative w-full max-w-md aspect-square">
                 {/* Animated geometric shapes */}
@@ -89,8 +104,14 @@ export default function ComingSoon() {
                   <div className="w-48 h-48 border-2 border-accent/40 rounded-2xl -rotate-12 animate-pulse" />
                 </div>
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-32 h-32 bg-primary/10 backdrop-blur-sm rounded-xl flex items-center justify-center">
-                    <Code2 className="w-16 h-16 text-primary" />
+                  <div className="w-32 h-32 bg-primary/10 backdrop-blur-sm rounded-xl flex items-center justify-center p-4">
+                    <Image
+                      src="https://dcroqfvqfbqwneibzjki.supabase.co/storage/v1/object/public/xlpro/WhatsApp%20Image%202025-09-30%20at%2014.01.29_d62e2043.svg"
+                      alt="XL Pro Logo"
+                      width={96}
+                      height={96}
+                      className="object-contain"
+                    />
                   </div>
                 </div>
               </div>
