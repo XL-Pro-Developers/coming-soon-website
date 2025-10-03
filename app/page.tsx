@@ -14,7 +14,7 @@ export default function ComingSoon() {
           </div>
           <div className="flex items-center gap-3 sm:gap-6">
             <Link
-              href="/about"
+              href="./about/page.tsx"
               className="text-xs sm:text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
               About
