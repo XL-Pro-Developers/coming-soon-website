@@ -111,17 +111,6 @@ export default function ComingSoon() {
         <div className="container mx-auto px-4 sm:px-6">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-4 text-xs sm:text-sm text-muted-foreground">
             <p className="text-center sm:text-left">© 2025 XL Pro Community. All rights reserved.</p>
-            <div className="flex items-center gap-4 sm:gap-6">
-              <a href="#" className="hover:text-foreground transition-colors">
-                Twitter
-              </a>
-              <a href="#" className="hover:text-foreground transition-colors">
-                LinkedIn
-              </a>
-              <a href="#" className="hover:text-foreground transition-colors">
-                GitHub
-              </a>
-            </div>
           </div>
         </div>
       </footer>
