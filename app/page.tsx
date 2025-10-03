@@ -1,5 +1,6 @@
 import { Code2, Calendar, MapPin } from "lucide-react"
 import { CountdownTimer } from "@/components/countdown-timer"
+import Link from "next/link"
 
 export default function ComingSoon() {
   return (
@@ -12,12 +13,12 @@ export default function ComingSoon() {
             <span className="font-mono text-xs sm:text-sm font-semibold">xlprocommunity.in</span>
           </div>
           <div className="flex items-center gap-3 sm:gap-6">
-            <a
-              href="#about"
+            <Link
+              href="/about"
               className="text-xs sm:text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
               About
-            </a>
+            </Link>
             <a
               href="#contact"
               className="text-xs sm:text-sm text-muted-foreground hover:text-foreground transition-colors"
