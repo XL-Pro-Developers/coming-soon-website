@@ -57,7 +57,7 @@ export default function ComingSoon() {
                 <h3 className="text-xs sm:text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-3 sm:mb-4">
                   Registration Opens In
                 </h3>
-                <CountdownTimer targetDate="2025-10-04T05:30:00" />
+                <CountdownTimer targetDate="2025-10-04T10:30:00" />
               </div>
 
               {/* Notify Form */}
